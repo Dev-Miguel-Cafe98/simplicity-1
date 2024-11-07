@@ -12,7 +12,7 @@ const mensagemStatus = document.querySelector("#status");
 // Ativaçao das máscaras para telefone ou Cep
 
 $(campoTelefone).mask("(00) 00000-0000");
-$(campoCep).mask("00000-000" );
+$(campoCep).mask("00000-0000" );
 
 
 // Ouvinte de evento para o botão Buscar
